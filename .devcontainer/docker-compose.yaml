@@ -6,15 +6,8 @@ services:
     volumes:
       - node_modules:/home/vscode/app/node_modules
       - ../:/home/vscode/app:cached
-    networks:
-      - default
     tty: true
     stdin_open: true
 
 volumes:
   node_modules:
-
-
-networks:
-  thunder:
-    external: true

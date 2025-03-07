@@ -1,3 +1,4 @@
 {
-  "i18n-ally.localesPaths": ["src/utils/locales"]
+  "i18n-ally.localesPaths": ["src/utils/locales"],
+  "gitdoc.enabled": true
 }
